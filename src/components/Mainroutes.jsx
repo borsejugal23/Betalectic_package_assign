@@ -8,7 +8,7 @@ function Mainroutes() {
     <div className="Mainroutes">
       <Routes>
         <Route path={"/"} element={<Homepage/>}/>
-        <Route path={"/favourite"} element={<Favourite/>}/>
+        <Route path={"/Fav"} element={<Favourite/>}/>
       </Routes>
     </div>
   );

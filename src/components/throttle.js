@@ -11,7 +11,7 @@ export function useThrottle(query) {
       .then((data) => {
         setTimeout(() => {
           setThrottle(data.results);
-          console.log("1");
+          // console.log("1");
         }, 400); 
       })
       .catch((err) => {
